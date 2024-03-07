@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Oswald", sans-serif;
+    height: 4000px;
+    direction: rtl;
+    flex-direction: row;
+
+}
+.haeder{
+    background-color: rgb(106, 78, 51);
+    color: rgb(0, 0, 0);
+    height: 50px;
+    line-height: 50px;
+}
+.haeder a{
+    margin-top: 5px;
+}
+
+
+
+
+ /* ////////////start slider///// */
+.carousel-indicators li {
+    height: 10px;
+    background-color: burlywood;
+}
+
+/* /////////end slider/// */
+
+/* //////start feature//////// */
+.feature{
+    margin-top: 75px;
+    
+}
+
+.feature i{
+    width: 100px;
+    height: 100px;
+    background-color: burlywood;
+    line-height: 100px;
+    color: rgb(109, 73, 30);
+    font-size: 40px;
+}
+.feature h3{
+   
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+}
+
+.feature p{
+    color: rgb(29, 6, 6);
+    line-height: 1.8;
+}
+
+.feature h2{
+    font-size: 40px;
+    margin-bottom: 30px;
+    background-color: rgba(206, 168, 119, 0.838);
+    display: inline-block;
+}
+ /* //////////start our team//// */
+
+.our-team{
+    background-color: rgba(206, 168, 119, 0.838);
+    padding: 50px;
+    background-image: url("../images/our\ custemors.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-bottom: 5px solid burlywood;
+    
+    
+}
+
+
+.statstic{
+    margin-top: 100px;
+    width: 100%;
+    height: 900px;
+    background-image: url("../images/coffee4.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+.statstic .overlay{
+    background-color: rgba(242, 227, 227, 0);
+    width: 100%;
+    
+    padding-top: 300px;
+}
+
+.statstic .overlay h3{
+    font-weight: bold;
+    font-family: 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+}
+
+.statstic .overlay p{
+    font-weight: bold;
+    font-family: 'Arial Narrow', Arial, sans-serif;
+    font-size: 70px;
+}
+
+.our_customers{
+    
+    background-image: url("../images/our\ custemors.jpg");
+    line-height: 250px;
+    margin-top: 50px;
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: cover;
+    border-bottom: 5px solid burlywood;
+}
+
+.container-ff{
+    display: flex;
+    
+    width: 100%;
+    transition: 2s;
+    
+}
+
+.container-ff:hover{
+    transform: scale(1.1);
+}
+
+.recent_news{
+    margin-top: 30px;
+}
+.btn-danger{
+    border-color:  rgba(206, 168, 119, 0.838);
+    color: black;
+}
+
+.recent_news .btn-danger:hover{
+    background-color:  rgba(125, 112, 92, 0.838);
+}
+footer{
+    background-color: rgba(221, 205, 181, 0.838);
+    padding: 30px;
+    background-image: url("../images/coffee4.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 150px;
+    border-top: 5px solid burlywood;
+}
+
+footer a:hover{
+    color: black;
+
+}
+
+footer h2{
+    color: rgb(66, 59, 51);
+}
+
+footer p{
+    color: rgb(52, 47, 41);
+}
+footer ul li {
+    list-style: none;
+}
+
+.jumborton{
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    margin: 20px
+
+}
+.jumborton .blog_info{
+    flex: 2;
+}
+
+.jumborton .blog_image{
+    flex: 1;
+}
+.blog_details p{
+     line-height: 2;
+     padding: 10px;
+}
+
+
+.blog_details2 p{
+    line-height: 2;
+    padding: 10px;
+}
+
+.cources img:hover{
+    transform: scale(1.1);
+   
+}
